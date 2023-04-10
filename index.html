@@ -6,9 +6,289 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <div class="top">
+                <div class="left_top">
+                    <button type="button" class="search_btn">
+                        <img src="./images/header_icon/search.svg" alt="Search Icon" class="header_icon">
+                    </button>
+                    <input type="search" class="search_input">
+                </div>
+                <div class="right_top">
+                    <button type="button" class="noti_btn">
+                        <img src="./images/header_icon/bell.svg" alt="Notification Icon" class="header_icon">
+                    </button>
+                    <button type="button" class="profile_pic">
+                        <img src="./images/profile_pic_1.jpg" alt="Profile Picture">
+                    </button>
+                    <button type="button" class="nick">Morgan Oakley</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left_bottom">
+                    <div class="main_profile_pic">
+                        <img src="./images/profile_pic_1.jpg" alt="Big Profile Picture">
+                    </div>
+                    <div class="welcome">
+                        <p class="greeting">Hi there,</p>
+                        <p class="main_nick">Morgan Oakley (@morgan)</p>
+                    </div>
+                </div>
+                <div class="right_bottom">
+                    <button type="button" class="btn one">New</button>
+                    <button type="button" class="btn two">Upload</button>
+                    <button type="button" class="btn three">Share</button>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="logo">
+                <button type="button" class="logo_btn">
+                    <img src="./images/nav_icon/dashboard.svg" alt="Dashboard Icon" class="pic">
+                    <a class="dash" href="#">Dashboard</a>
+                </button>
+            </div>
+            <div class="main_options">
+                <ul class="opt">
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/home.svg" alt="Home icon" class="nav_icon">
+                            <h2 class="set_name">Home</h2>
+                        </button>
+                    </li>
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/profile.svg" alt="Profile Icon" class="nav_icon">
+                            <h2 class="set_name">Profile</h2>
+                        </button>
+                    </li>
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/chat.svg" alt="Message Icon" class="nav_icon">
+                            <h2 class="set_name">Messages</h2>
+                        </button>
+                    </li>
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/history.svg" alt="History Icon" class="nav_icon">
+                            <h2 class="set_name">History</h2>
+                        </button>
+                    </li>
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/task.svg" alt="Tasks Icon" class="nav_icon">
+                            <h2 class="set_name">Tasks</h2>
+                        </button>
+                    </li>
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/people.svg" alt="Community Icon" class="nav_icon">
+                            <h2 class="set_name">Communities</h2>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="sec_options">
+                <ul class="opt">
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/setting.svg" alt="Settings Icon" class="nav_icon">
+                            <h2 class="set_name">Settings</h2>
+                        </button>
+                    </li>
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/support.svg" alt="Support Icon" class="nav_icon">
+                            <h2 class="set_name">Support</h2>
+                        </button>
+                    </li>
+                    <li class="setting">
+                        <button type="button" class="set_btn">
+                            <img src="./images/nav_icon/privacy.svg" alt="Privacy Icon" class="nav_icon">
+                            <h2 class="set_name">Privacy</h2>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="section">
+            <main>
+                <h2 class="main_title">Your Projects</h2>
+                <div class="project_container">
+                    <div class="card">
+                        <div class="text_section">
+                            <h2 class="card_title">Super Cool Project</h2>
+                            <p class="card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sapiente veniam aliquam ratione eum quo ea modi. Unde nostrum iusto maxime inventore dignissimos. Eveniet, dolore.</p>
+                        </div>
+                        <div class="action_btns">
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/star.svg" alt="Star Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/eye.svg" alt="Eye Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/fork.svg" alt="Git Fork Icon" class="act_icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="text_section">
+                            <h2 class="card_title">Less Cool Project</h2>
+                            <p class="card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatem corrupti distinctio dolorem deserunt blanditiis sunt ullam perspiciatis placeat quas?</p>
+                        </div>
+                        <div class="action_btns">
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/star.svg" alt="Star Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/eye.svg" alt="Eye Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/fork.svg" alt="Git Fork Icon" class="act_icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="text_section">
+                            <h2 class="card_title">Ipossible App</h2>
+                            <p class="card_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit nisi rem facilis cum suscipit explicabo sit consectetur dolorem, nulla expedita eligendi? Dolorem ipsam necessitatibus voluptatum ab, officiis tempore temporibus vero?</p>
+                        </div>
+                        <div class="action_btns">
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/star.svg" alt="Star Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/eye.svg" alt="Eye Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/fork.svg" alt="Git Fork Icon" class="act_icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="text_section">
+                            <h2 class="card_title">Easy Pessy App</h2>
+                            <p class="card_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, enim Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, earum?</p>
+                        </div>
+                        <div class="action_btns">
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/star.svg" alt="Star Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/eye.svg" alt="Eye Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/fork.svg" alt="Git Fork Icon" class="act_icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="text_section">
+                            <h2 class="card_title">Ad Blocker</h2>
+                            <p class="card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, accusamus optio. Quaerat illum dolorem praesentium dolor dolore debitis. Eligendi, possimus?</p>
+                        </div>
+                        <div class="action_btns">
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/star.svg" alt="Star Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/eye.svg" alt="Eye Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/fork.svg" alt="Git Fork Icon" class="act_icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="text_section">
+                            <h2 class="card_title">Money Maker</h2>
+                            <p class="card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis distinctio nobis nisi, quis eligendi nam?</p>
+                        </div>
+                        <div class="action_btns">
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/star.svg" alt="Star Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/eye.svg" alt="Eye Icon" class="act_icon">
+                            </button>
+                            <button type="button" class="act_btn">
+                                <img src="./images/card_icon/fork.svg" alt="Git Fork Icon" class="act_icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <aside>
+                <div class="announcements">
+                    <h2 class="ann_title">Announcements</h2>
+                    <div class="announcements_box">
+                        <div class="announce">
+                            <h2 class="announ_title">Site Maintance</h2>
+                            <p class="announ_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi amet odio ad soluta et.</p>
+                        </div>
+                        <hr />
+                        <div class="announce">
+                            <h2 class="announ_title">Site Maintance</h2>
+                            <p class="announ_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi amet odio ad soluta et.</p>
+                        </div>
+                        <hr />
+                        <div class="announce">
+                            <h2 class="announ_title">Site Maintance</h2>
+                            <p class="announ_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi amet odio ad soluta et.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trends">
+                    <h2 class="trends_title">Trending</h2>
+                    <div class="users">
+                        <div class="user">
+                            <button type="button" class="usr_profile">
+                                <img src="./images/profile_pic_2.jpg" alt="User Profile Photo" class="user_img">
+                            </button>
+                            <div class="about_usr">
+                                <a href="#" class="usr_tag">@tegan</a>
+                                <p class="project_name">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <button type="button" class="usr_profile">
+                                <img src="./images/profile_pic_3.jpeg" alt="User Profile Photo" class="user_img">
+                            </button>
+                            <div class="about_usr">
+                                <a href="#" class="usr_tag">@morgan</a>
+                                <p class="project_name">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <button type="button" class="usr_profile">
+                                <img src="./images/profile_pic_4.jpg" alt="User Profile Photo" class="user_img">
+                            </button>
+                            <div class="about_usr">
+                                <a href="#" class="usr_tag">@kendall</a>
+                                <p class="project_name">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <button type="button" class="usr_profile">
+                                <img src="./images/profile_pic_5.jpg" alt="User Profile Photo" class="user_img">
+                            </button>
+                            <div class="about_usr">
+                                <a href="#" class="usr_tag">@alex</a>
+                                <p class="project_name">No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
 </body>
 </html>
